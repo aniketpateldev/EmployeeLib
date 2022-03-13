@@ -1,0 +1,35 @@
+﻿<Page
+    x:Class="UIEmployee.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:UIEmployee"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="543,54,0,0" Text="Employee   " TextWrapping="Wrap" VerticalAlignment="Top" Height="74" Width="201" FontSize="36"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Margin="483,173,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="43" Width="249"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Margin="483,234,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="43" Width="249"/>
+        <TextBox x:Name="textBox1_Copy" HorizontalAlignment="Left" Margin="483,298,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="43" Width="249"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="245,173,0,0" Text="First Name" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24"/>
+        <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="245,240,0,0" Text="Social Insurance No" TextWrapping="Wrap" VerticalAlignment="Top" Height="37" Width="219" FontSize="24"/>
+        <TextBlock x:Name="textBlock3" HorizontalAlignment="Left" Margin="245,304,0,0" Text="Email" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24" Width="77"/>
+        <TextBlock x:Name="textBlock4" HorizontalAlignment="Left" Margin="245,361,0,0" Text="Hire Date" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24"/>
+        <DatePicker x:Name="datePicker" Margin="483,370,0,0" VerticalAlignment="Top" Height="41" Width="311"/>
+        <TextBlock x:Name="textBlock5" HorizontalAlignment="Left" Margin="245,422,0,0" Text="Phone" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24"/>
+        <TextBox x:Name="textBox1_Copy1" HorizontalAlignment="Left" Margin="483,416,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="43" Width="249"/>
+        <TextBlock x:Name="textBlock6" HorizontalAlignment="Left" Margin="253,0,0,0" Text="Address" TextWrapping="Wrap" VerticalAlignment="Center" FontSize="24"/>
+        <TextBlock x:Name="textBlock7" HorizontalAlignment="Left" Margin="483,0,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Center" Height="39" Width="245"/>
+        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Margin="483,481,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="41" Width="249"/>
+        <TextBlock x:Name="textBlock8" HorizontalAlignment="Left" Margin="875,179,0,0" Text="Hourly Pay rate for Hourly" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24"/>
+        <TextBox x:Name="textBox3" HorizontalAlignment="Left" Margin="1198,173,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="43" Width="257" FontSize="24"/>
+        <TextBlock x:Name="textBlock9" HorizontalAlignment="Left" Margin="875,240,0,0" Text="No of Hours" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24"/>
+        <TextBox x:Name="textBox4" HorizontalAlignment="Left" Margin="1198,234,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="43" Width="257"/>
+        <TextBlock x:Name="textBlock10" HorizontalAlignment="Left" Margin="877,298,0,0" Text="Salary" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24"/>
+        <TextBox x:Name="textBox5" HorizontalAlignment="Left" Margin="1198,288,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="48" Width="257"/>
+        <Button x:Name="button" Content="Submit " Margin="1245,570,0,0" VerticalAlignment="Top" Height="59" Width="130" FontSize="18" Click="button_Click"/>
+
+    </Grid>
+</Page>
